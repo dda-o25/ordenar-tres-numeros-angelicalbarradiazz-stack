@@ -32,27 +32,27 @@ c_str=str(c)
 
 # Proceso
 
-if (a==b and b==c) or (a>=b and b>c):
+if (a==b and b==c) or(a>=b and b>c):
     print(("Números ordenados: ")+(a_str)+(", ")+(b_str)+(", ")+(c_str))
-elif (a<b and b<c):
+elif (a<b and b<=c):
     print(("Números ordenados: ")+(c_str)+(", ")+(b_str)+(", ")+(a_str))
 
-elif(b<a and a<c):
+elif(b<a and a<=c):
     print(("Números ordenados: ")+(c_str)+(", ")+(a_str)+(", ")+(b_str))
 
-elif(a>c and c>b):
+elif(a>=c and c>b):
     print(("Números ordenados: ")+(a_str)+(", ")+(c_str)+(", ")+(b_str))
     
-elif(b>a and a>c):
+elif(b>=a and a>c):
     print(("Números ordenados: ")+(b_str)+(", ")+(a_str)+(", ")+(c_str))
     
-elif(b>c and c>a):
+elif(b>=c and c>a):
     print(("Números ordenados: ")+(b_str)+(", ")+(c_str)+(", ")+(a_str))
 
 
 
 else:
-    print("nada")
+        print("nada")
 
 
 
