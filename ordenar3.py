@@ -32,7 +32,7 @@ c_str=str(c)
 
 # Proceso
 
-if (a==b and b==c) or(a>=b and b>c):
+if (a==b and b==c) or(a>=b and b>=c):
     print(("Números ordenados: ")+(a_str)+(", ")+(b_str)+(", ")+(c_str))
 elif (a<b and b<=c):
     print(("Números ordenados: ")+(c_str)+(", ")+(b_str)+(", ")+(a_str))
