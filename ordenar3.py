@@ -18,25 +18,41 @@ Dados tres números, ordenarlos de mayor a menor.
 """
 
 # Declaraciones
-CONSTANTE = valor
-primernumero=input("Primer número ")
-segundonumero=input("Primer número ")
-tercernumero=input("Primer número ")
+#CONSTANTE = valor
+a=float(input("Primer número "))
+b=float(input("Segundo número "))
+c=float(input("Tercer número "))
 
 
 # Entradas
-entrada = input()
 
-a=float(primernumero)
-b=float(segundonumero)
-c=float(tercernumero)
+a_str=str(a)
+b_str=str(b)
+c_str=str(c)
 
 # Proceso
 
-if a=b and b=c
-    print(("Primer número: ")(a)+("Segundo número ")+(b)+(c))
+if (a==b and b==c) or (a>=b and b>c):
+    print(("Números ordenados: ")+(a_str)+(", ")+(b_str)+(", ")+(c_str))
+elif (a<b and b<c):
+    print(("Números ordenados: ")+(c_str)+(", ")+(b_str)+(", ")+(a_str))
+
+elif(b<a and a<c):
+    print(("Números ordenados: ")+(c_str)+(", ")+(a_str)+(", ")+(b_str))
+
+elif(a>c and c>b):
+    print(("Números ordenados: ")+(a_str)+(", ")+(c_str)+(", ")+(b_str))
+    
+elif(b>a and a>c):
+    print(("Números ordenados: ")+(b_str)+(", ")+(a_str)+(", ")+(c_str))
+    
+elif(b>c and c>a):
+    print(("Números ordenados: ")+(b_str)+(", ")+(c_str)+(", ")+(a_str))
 
 
+
+else:
+    print("nada")
 
 
 
